@@ -42,7 +42,7 @@
     <bottom>
         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <children>
-                <ProgressBar visible="false" prefWidth="200.0" progress="0.0">
+                <ProgressBar fx:id="progressBar" visible="false" prefWidth="200.0" progress="0.0">
                     <HBox.margin>
                         <Insets left="50.0" />
                     </HBox.margin>
